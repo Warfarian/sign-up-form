@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'retro_computer';
+    src: url('fonts/retro_computer_personal_use-webfont.woff2') format('woff2'),
+         url('fonts/retro_computer_personal_use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.full-form{
+    display: flex;  
+    overflow: hidden;
+    font-family: 'retro_computer', Courier, monospace;
+    justify-content: center;
+    background-color: black;
+
+}
+
+.background{
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 950px;
+    object-fit: cover;
+}
+
+img{
+    display: block;
+}
+
+.images{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 1050px;
+}
+.logo-container{
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    right: 100px;
+}
+
+.logo-container::after{
+    position: absolute;
+    content: "50 \00000a Blessings";
+    white-space: pre-wrap;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    top: 185px;
+    right: -70px;
+    letter-spacing: 2px;
+    text-shadow: 
+        0 0 5px #d8a8ff,  /* Outer purple glow */
+        0 0 10px #d8a8ff,
+        0 0 20px #d8a8ff,
+        0 0 30px #00ffea, /* Secondary cyan glow */
+        0 0 40px #00ffea;
+}
+.logo-image{
+    position:absolute;
+    top: 150px;
+    left: 75px;
+    height: 150px;
+}
+
+.logo-image::after{
+    content: "50 Blessings";
+}
+
+h1{
+    font-weight: 100;
+}
+
+.welcome{
+    line-height: 1.3;
+    padding: 20px;
+    padding-top: 95px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-shadow: 
+        0 0 5px #d8a8ff,  /* Outer purple glow */
+        0 0 10px #d8a8ff,
+        0 0 20px #d8a8ff,
+        0 0 30px #00ffea, /* Secondary cyan glow */
+        0 0 40px #00ffea;
+    font-size: 15px;
+}
+
+.signupform{
+    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-shadow: 
+        0 0 5px #d8a8ff,  /* Outer purple glow */
+        0 0 10px #d8a8ff,
+        0 0 20px #d8a8ff,
+        0 0 30px #00ffea, /* Secondary cyan glow */
+        0 0 40px #00ffea;  
+    padding: 50px;
+    line-height: 2;
+}
+
+input[type="text"] , input[type="email"], input[type = "password"], input[type = "number"]{
+    width: 350px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+input[type="submit"]{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: 'retro_computer';
+}
+
+a{
+    text-decoration: solid;
+    color: rgb(255, 75, 75);
+    text-shadow: 
+    0 0 5px #d8a8ff,  /* Outer purple glow */
+    0 0 10px #d8a8ff,
+    0 0 20px #d8a8ff,
+    0 0 30px #7e008d, /* Secondary cyan glow */
+    0 0 40px #ec4995;  
+}
+
+.better-america{
+    display: flex;
+    justify-content: center;
+}
