@@ -123,7 +123,10 @@ input[type="submit"]{
     font-weight: bold;
     font-family: 'retro_computer';
 }
-
+input::placeholder{
+    text-align: center;
+    font-family: 'retro_computer';
+}
 a{
     text-decoration: solid;
     color: rgb(255, 75, 75);
